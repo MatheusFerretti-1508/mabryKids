@@ -1,5 +1,6 @@
-import Header from "./containers/Header"
+import { BrowserRouter } from 'react-router-dom'
 import EstiloGlobal from "./styles"
+import Rotas from './routes'
 
 
 function App() {
@@ -7,8 +8,10 @@ function App() {
 
   return (
     <>
+      <BrowserRouter>
       <EstiloGlobal />
-      <Header />
+      <Rotas />
+      </BrowserRouter>
     </>
   )
 }

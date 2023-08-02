@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { cores } from "../../styles";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
     background-color: rgb(234, 198, 150, .4);
@@ -20,6 +21,12 @@ export const HeaderContent = styled.header`
         font-weight: bold;
         color: ${cores.marromMarca};
     }
+    
+    a {
+        text-decoration: none;
+        color: none;
+        cursor: auto;
+    }
 `
 
 
@@ -27,4 +34,9 @@ export const Logo = styled.img`
     height: 100px;
     margin-bottom: 124px;
     border: 4px solid ${cores.marromMarca};
+    cursor: pointer;
+`
+
+export const LinkHeader = styled(Link)`
+    text-decoration: none;
 `
