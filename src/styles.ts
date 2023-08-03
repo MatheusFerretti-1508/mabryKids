@@ -11,6 +11,14 @@ const EstiloGlobal = createGlobalStyle`
     .container {
         max-width: 1024px;
         margin: 0 auto;
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
+    }
+
+    .mbotton {
+        margin-bottom: 80px;
     }
 `
 

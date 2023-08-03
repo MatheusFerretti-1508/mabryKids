@@ -10,27 +10,69 @@ export const FooterContainer = styled.div`
 
 export const FooterContent = styled.footer`
     color: ${cores.marromMarca};
-    display: grid;
-    grid-template-columns: 1fr;
-    
+    display: flex;
+    justify-content: space-between;
+
+    div {
+        display: inline-block;
+
+        h4 {
+            font-weight: 900;
+            margin-bottom: 8px;
+            font-size: 24px;
+        }
+
+        h5 {
+            font-weight: 400;
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+
+            div {
+                background-color: #d2ab67;
+                border-radius: 50%;
+                padding: 4px;
+                margin-right: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            img {
+                    width: 24px;
+                    height: 24px;
+                }
+
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: ${cores.marromMarca};
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+
     small {
         font-size: 16px;
         margin-right: 8px;
+        font-weight: 400;
     }
     
     p {
         margin: 0 auto;
-        font-weight: bold;
+        font-weight: 400;
         display: flex;
         align-items: center;
-        text-align: center;
-        margin-bottom: 16px;
+    }
 
-        img {
-            width: 24px;
-            height: 24px;
-            cursor: pointer;
-        }
+    @media (max-width: 768px) {
+        
     }
 `
 
@@ -44,5 +86,12 @@ export const BgInsta = styled.div`
         align-items: center;
         justify-content: center;
         text-decoration: none;
+
+        img {
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            margin-right: 0 !important;
+        }
     }
 `

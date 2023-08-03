@@ -2,11 +2,15 @@ import styled from "styled-components";
 import { cores } from "../../styles";
 import { Link } from "react-router-dom";
 
+
+export const Espacador = styled.div`
+    margin-bottom: 80px;
+`
+
 export const HeaderContainer = styled.div`
     background-color: rgb(234, 198, 150, .4);
     display: flex;
     justify-content: center;
-    padding: 32px;
 `
 
 export const HeaderContent = styled.header`
@@ -14,13 +18,8 @@ export const HeaderContent = styled.header`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
-    p {
-        text-align: center;
-        font-size: 32px;
-        font-weight: bold;
-        color: ${cores.marromMarca};
-    }
+    margin-bottom: -40px;
+    margin-top: -40px;
     
     a {
         text-decoration: none;
@@ -31,9 +30,8 @@ export const HeaderContent = styled.header`
 
 
 export const Logo = styled.img`
-    height: 100px;
-    margin-bottom: 124px;
-    border: 4px solid ${cores.marromMarca};
+    height: 250px;
+    /* border: 4px solid ${cores.marromMarca}; */
     cursor: pointer;
 `
 

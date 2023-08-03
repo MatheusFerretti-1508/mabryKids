@@ -6,6 +6,12 @@ export const ListaDeProdutosContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 36px;
+
+    @media (max-width: 768px) {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
 `
 
 export const Card = styled.div`
@@ -45,9 +51,15 @@ export const Card = styled.div`
             background-color: rgb(0,166,80, .8);
         }
     }
+
+    @media (max-width: 768px) {
+        margin-bottom: 48px;
+    }
 `
 
 export const TituloDaSecao = styled.h2`
+    margin: 0 auto;
+    width: 90%;
     font-size: 28px;
     margin-bottom: 36px;
     color: ${cores.marromMarca};
