@@ -6,6 +6,10 @@ export const FooterContainer = styled.div`
     background-color: rgb(234, 198, 150, .4);
     padding: 32px;
     margin-top: 80px;
+
+    @media (max-width: 768px) {
+        padding: 8px;
+    }
 `
 
 export const FooterContent = styled.footer`
@@ -72,7 +76,7 @@ export const FooterContent = styled.footer`
     }
 
     @media (max-width: 768px) {
-        
+        display: block;
     }
 `
 
