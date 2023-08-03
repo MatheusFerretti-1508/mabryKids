@@ -1,5 +1,5 @@
 import { Espacador, HeaderContainer, HeaderContent, Logo } from "./styles"
-import LogoImg from '../../assets/images/LOGOTESTE-removebg-preview.png'
+import LogoImg from '../../assets/images/LOGOTESTEv2-removebg-preview.png'
 import MenuBar from "../../components/MenuBar"
 import { Link } from "react-router-dom"
 import Banner from "../../components/Banner"

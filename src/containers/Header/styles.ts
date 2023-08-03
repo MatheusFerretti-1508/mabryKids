@@ -18,8 +18,8 @@ export const HeaderContent = styled.header`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: -40px;
-    margin-top: -40px;
+    margin-bottom: -100px;
+    margin-top: -90px;
     
     a {
         text-decoration: none;
@@ -30,7 +30,7 @@ export const HeaderContent = styled.header`
 
 
 export const Logo = styled.img`
-    height: 250px;
+    height: 350px;
     /* border: 4px solid ${cores.marromMarca}; */
     cursor: pointer;
 `
