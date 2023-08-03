@@ -20,6 +20,12 @@ export const FooterContent = styled.footer`
     div {
         display: inline-block;
 
+        p {
+            margin-top: -12px;
+            margin-bottom: 8px;
+            position: sticky;
+        }
+
         h4 {
             font-weight: 900;
             margin-bottom: 8px;
@@ -99,3 +105,24 @@ export const BgInsta = styled.div`
         }
     }
 `
+
+export const SobreAMarca = styled.button`
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: ${cores.marromMarca};
+`
+
+// export const RedesSocias = styled.div`
+//     position: absolute;
+//     left: 580px;
+
+//     @media (max-width: 768px) {
+//         position: relative
+//     }
+// `

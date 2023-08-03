@@ -18,13 +18,18 @@ export const HeaderContent = styled.header`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: -100px;
+    margin-bottom: -110px;
     margin-top: -90px;
     
     a {
         text-decoration: none;
         color: none;
         cursor: auto;
+    }
+
+    @media (max-width: 768px) {
+        margin-bottom: -110px;
+        margin-top: -90px;
     }
 `
 
