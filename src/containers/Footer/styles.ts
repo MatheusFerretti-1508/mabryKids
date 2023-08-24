@@ -3,7 +3,7 @@ import { cores } from "../../styles";
 
 
 export const FooterContainer = styled.div`
-    background-color: rgb(234, 198, 150, .4);
+    background-color: rgba(26, 214, 162, 0.6);
     padding: 32px;
     margin-top: 80px;
 
@@ -13,7 +13,7 @@ export const FooterContainer = styled.div`
 `
 
 export const FooterContent = styled.footer`
-    color: ${cores.marromMarca};
+    color: ${cores.branco};
     display: flex;
     justify-content: space-between;
 
@@ -27,7 +27,7 @@ export const FooterContent = styled.footer`
         }
 
         h4 {
-            font-weight: 900;
+            font-weight: 700;
             margin-bottom: 8px;
             font-size: 24px;
         }
@@ -40,13 +40,14 @@ export const FooterContent = styled.footer`
             align-items: center;
 
             div {
-                background-color: #d2ab67;
+                background-color: #1AD6A2;
                 border-radius: 50%;
                 padding: 4px;
                 margin-right: 4px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                cursor: pointer;
             }
 
             img {
@@ -58,7 +59,7 @@ export const FooterContent = styled.footer`
                 display: flex;
                 align-items: center;
                 text-decoration: none;
-                color: ${cores.marromMarca};
+                color: ${cores.branco};
 
                 img {
                     width: 24px;
@@ -115,7 +116,7 @@ export const SobreAMarca = styled.button`
     margin-bottom: 8px;
     display: flex;
     align-items: center;
-    color: ${cores.marromMarca};
+    color: ${cores.branco};
 `
 
 // export const RedesSocias = styled.div`

@@ -23,11 +23,11 @@ const EstiloGlobal = createGlobalStyle`
 `
 
 export const cores = {
-    verdeMarca: '#00a650',
-    azulMarca: '#8dd8f8',
+    verdeMarca: '#1AD6A2',
+    azulMarca: '#2153CC',
     marromMarca: '#d2ab67',
-    rosaMarca: '#ec008c',
-    amareloMarca: '#fff200',
+    vermelhoMarca: '#D71920',
+    amareloMarca: '#FFE500',
     branco: '#fff',
     preto: '#000'
 }

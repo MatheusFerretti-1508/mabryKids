@@ -12,9 +12,10 @@ const MenuBar = ({sloganOuLinks}:Props) => {
             <MenuBarContent className="container">
                 {sloganOuLinks === 'links' ? 
                 (<>
-                <Links to={'/verao'}>Verão</Links>
-                <Links to={'/inverno'}>Inverno</Links>
-                <Links to={'https://www.instagram.com/mabrykidsloja/'}>Contato</Links>
+                <Links to={'/'}>Menu</Links>
+                <Links to={'/catalogo'}>Catálogo</Links>
+                <Links to={'/sobre'}>Sobre nós</Links>
+                <Links to={'https://www.instagram.com/varuttimodas/?hl=pt-br'}>Contato</Links>
                 </>) : (
                 <p>O melhor da moda infantil</p>
                 )}

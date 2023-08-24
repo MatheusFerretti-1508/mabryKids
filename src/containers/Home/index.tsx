@@ -10,7 +10,7 @@ const Home = () => {
         <>
         <Header />
         <ContainerHome className="container">
-            <ListaDeProdutos titulo="Em destaque" />
+            <ListaDeProdutos tipo="destaques" titulo="Em destaque" />
         </ContainerHome>
         <Footer />
         </>

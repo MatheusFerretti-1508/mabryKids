@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 export const MenuBarContainer = styled.div`
-    background-color: ${cores.marromMarca};
+    background-color: ${cores.verdeMarca};
     color: ${cores.branco};
 `
 
@@ -38,6 +38,6 @@ export const Links = styled(Link)`
     }
 
     @media (max-width: 768px) {
-        font-size: 16px;
+        font-size: 14px;
     }
 `

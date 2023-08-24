@@ -1,9 +1,10 @@
 import { Espacador, HeaderContainer, HeaderContent, Logo } from "./styles"
-import LogoImg from '../../assets/images/LOGOTESTEv2-removebg-preview.png'
+import LogoImg from '../../assets/images/logovaruti.jpeg'
 import MenuBar from "../../components/MenuBar"
 import { Link } from "react-router-dom"
 import Banner from "../../components/Banner"
 import banner from '../../assets/images/bannerMabryofc.png'
+import Beneficios from "../../components/ListaBeneficios"
 
 
 const Header = () => {
@@ -18,6 +19,7 @@ const Header = () => {
             <MenuBar sloganOuLinks="links" />
             <Banner imgBanner={banner}/>
             <MenuBar sloganOuLinks="slogan"/>
+            <Beneficios />
         </Espacador>
     )
 }

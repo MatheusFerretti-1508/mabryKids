@@ -15,14 +15,16 @@ export const ListaDeProdutosContainer = styled.div`
 `
 
 export const Card = styled.div`
-    height: 543px;
-    width: 336px;
+    height: 400px;
+    width: 450px;
     margin: 0 auto;
-    color: ${cores.marromMarca};
+    color: ${cores.azulMarca};
 
     img {
         width: 100%;
-        height: 421px;
+        height: 260px;
+        /* border: 2px solid ${cores.verdeMarca}; */
+        border-radius: 16px;
     }
 
     small {
@@ -45,15 +47,20 @@ export const Card = styled.div`
         padding: 4px;
         border: none;
         color: ${cores.branco};
-        background-color: ${cores.verdeMarca};
+        background-color: ${cores.azulMarca};
 
         &:hover {
-            background-color: rgb(0,166,80, .8);
+            background-color: rgb(33, 83, 204, .8);
         }
     }
 
     @media (max-width: 768px) {
         margin-bottom: 48px;
+        width: 300px;
+        
+        img {
+            height: 200px;
+        }
     }
 `
 
@@ -62,5 +69,6 @@ export const TituloDaSecao = styled.h2`
     width: 90%;
     font-size: 28px;
     margin-bottom: 36px;
-    color: ${cores.marromMarca};
+    color: ${cores.azulMarca};
 `
+

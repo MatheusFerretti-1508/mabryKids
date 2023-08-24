@@ -9,7 +9,7 @@ const Verao = () => {
         <>
         <Header />
         <div className="container">
-        <ListaDeProdutos titulo="Coleção verão" />
+        <ListaDeProdutos tipo='catalogo' titulo="Catálogo" />
         </div>
         <Footer />
         </>
